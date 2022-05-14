@@ -1,0 +1,22 @@
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets//img/bg.jpg) no-repeat center center/cover;
+}
+
+.about-description {
+    text-align: center;
+}
+
+.about-description h3 {
+    font-size: 40pt;
+    font-weight: 700;
+}
+
+.about-description p {
+    font-size: 20pt;
+}

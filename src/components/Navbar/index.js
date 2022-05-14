@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { links, social } from './data';
-import logo from './logo.svg';
+import { links, social } from '../../data';
+import logo from '../../assets/img/logo.png';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
               const { id, url, text } = link;
               return (
                 <li key={id}>
-                  <a href={url}>{text}</a>
+                  <Link href={url} smooth={true} duration={1000}>{text}</Link>
                 </li>
               );
             })}
