@@ -1,91 +1,9 @@
 footer {
-    background: var(--default-color);
-    padding: 1rem;
-  
-    .container {
-      display: flex;
-      justify-content: space-between;
-      height: 213px;
-      align-items: center;
-      .localization {
-       h3 {
-          color: var var(--text-color);
-          position: relative;
-          margin-bottom: 40px;
-          &::after {
-            content: " ";
-            width: 44.94px;
-            height: 5px;
-            position: absolute;
-            top: 40px;
-            left: 0;
-          }
-        }
-        p {
-          color: var(--text-color);
-          margin: 16px 0;
-          font-size: 13px;
-          line-height: 12px;
-        }
-      }
-
-      .footer-icon {
-        padding: 5px;
-      }
-
-      button {
-        width: 195px;
-        height: 38px;
-        display: flex;
-        align-items: center;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 16px;
-        border: none;
-        border-radius: 5px;
-        img {
-          margin: 0 16px;
-        }
-      }
-      .getInTouch {
-        display: flex;
-        flex-direction: column;
-        .sac {
-          margin-top: 25px;
-          padding-right: 22px;
-        }
-      }
-      }
-    }
-  
-  @media screen and (max-width: 600px) {
-    footer {
-      .container {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-  
-        .localization {
-          display: flex;
-          flex-direction: column;
-          width: 100%;
-          p {
-            margin-top: 0;
-          }
-        }
-  
-        .getInTouch {
-          display: flex;
-          flex-direction: column;
-          margin-top: 27px;
-          .sac {
-            margin: 25px 0;
-          }
-        }
-      }
-    }
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin: .3rem;
   }
-
   .copyright {
     display: flex;
     justify-content: center;
@@ -94,4 +12,5 @@ footer {
     background: var(--default-color);
     font-size: 1rem;
   }
+}
   

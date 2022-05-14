@@ -13,12 +13,12 @@ export const links = [
   },
   {
     id: 3,
-    url: 'Partner',
+    url: 'partner',
     text: 'parceiros',
   },
   {
     id: 4,
-    url: 'Contactos',
+    url: 'contact',
     text: 'Contactos',
   },
 ];

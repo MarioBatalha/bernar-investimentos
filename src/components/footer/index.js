@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div className="copyright">
         <p className="copyright">
-          Copyright &copy; {year} Mário Batalha - All rights reserved.
+          Copyright &copy; {year} <a href="http://mariobatalha.co/" target="blank" > Mário Batalha</a> - All rights reserved.
         </p>
       </div>
     </footer>

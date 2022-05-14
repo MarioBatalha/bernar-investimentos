@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav>
       <div className='nav-center'>
         <div className='nav-header'>
-          <img src={logo} className='logo' alt='logo' />
+          <img src={logo} className='logo' alt='logo' onClick={() => scroll.scrollToTop()} />
           <button className='nav-toggle' onClick={toggleLinks}>
             <FaBars />
           </button>
@@ -34,7 +34,7 @@ const Navbar = () => {
               const { id, url, text } = link;
               return (
                 <li key={id}>
-                  <Link href={url} smooth={true} duration={1000}>{text}</Link>
+                  <Link to={url} smooth={true} duration={1000}>{text}</Link>
                 </li>
               );
             })}
