@@ -11,8 +11,11 @@ const Contact = () => {
         <div className="localization">
           <h3>Localização</h3>
           <p>Luanda, Bairro Rangel</p>
-          <p>Rua Arco-íris ZOna 15, casa S/N</p>
+          <p>Rua Arco-íris Zona 15, casa S/N</p>
           <p>hello@bernarinvestimentos.com</p>
+        </div>
+        <div className="localization">
+          <h3>WhatsApp</h3>
           <p>+244 953 166 250 - 931 1674 763</p>
         </div>
         <div className="contact-form">
