@@ -1,6 +1,31 @@
 .contact {
     max-width: 100vw;
     height: 100vh;
-    background: var(--clr-primary-4);
-    color: var(--text-color);
+    background: var(--default-color);
+}
+
+.contact h1 {
+    margin: 4rem 0 0 2rem;
+    padding: 1rem;
+    font-weight: 100;
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    text-align: center;
+}
+.localization {
+    width: 50%;
+    height: auto;
+}
+
+.contact-form {
+    width: 50%;
+    height: auto;
 }
