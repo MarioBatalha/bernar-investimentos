@@ -10,10 +10,10 @@ const Contact = () => {
       <div className="contact-description">
         <div className="localization">
           <h3>Localização</h3>
-          <p>Estrada direita de Cacuaco</p>
-          <p>Junto a pedonal do colégio Sacrinor</p>
-          <p>angojordan.energia@gmail.com</p>
-          <p>+244 937 588 458</p>
+          <p>Luanda, Bairro Rangel</p>
+          <p>Rua Arco-íris ZOna 15, casa S/N</p>
+          <p>hello@bernarinvestimentos.com</p>
+          <p>+244 953 166 250 - 931 1674 763</p>
         </div>
         <div className="contact-form">
           <h3>Envei-nos um email</h3>
