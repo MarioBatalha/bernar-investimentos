@@ -25,7 +25,7 @@ const Contact = () => {
           <h3>Envei-nos um email</h3>
           <p>
             Esteja por dentro de todos os serviços que fornecemos e esteja
-            atento para as nossas promoções, envie-nos um email para que nçao
+            atento para as nossas promoções, envie-nos um email para que não
             recebas as nossas promoções como spam.
           </p>
 
