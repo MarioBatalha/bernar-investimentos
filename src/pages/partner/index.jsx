@@ -1,48 +1,79 @@
 import React from "react";
-//import { BsApple } from 'react-icons/bs';
-
+import { ImAndroid, ImAmazon } from 'react-icons/im'
+import { BsMicrosoft, BsGoogle,BsApple } from 'react-icons/bs';
+import { SiDell, 
+  SiLenovo,
+  SiToshiba,
+  SiCisco,
+  SiSamsung,
+  SiAdobecreativecloud,
+  SiEpson,
+  SiPlaystation,
+  SiAsus,
+  SiMailchimp
+} from 'react-icons/si';
 import "./style.scss";
 
 const partners = [
   {
     id: 1,
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/146px-Apple_logo_black.svg.png",
+    url: <BsApple size={90} color="#FFF" />,
   },
   {
     id: 2,
-    url: "https://wikiimg.tojsiabtv.com/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1200px-HP_logo_2012.svg.png",
+    url: <ImAndroid size={90} color="#FFF" />,
   },
   {
     id: 3,
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_logo_2016.svg/1200px-Dell_logo_2016.svg.png",
+    url: <BsMicrosoft size={90} color="#FFF" />,
   },
   {
     id: 4,
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Lenovo_logo_2015.svg/2560px-Lenovo_logo_2015.svg.png",
+    url: <BsGoogle size={90} color="#FFF" />,
   },
   {
     id: 5,
-    url: "https://download.logo.wine/logo/Hikvision/Hikvision-Logo.wine.png",
+    url: <SiToshiba size={90} color="#FFF" />,
   },
   {
     id: 6,
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Toshiba_logo.svg/2560px-Toshiba_logo.svg.png",
+    url: <SiCisco size={90} color="#FFF" />,
   },
   {
     id: 7,
-    url: "https://logos-world.net/wp-content/uploads/2020/04/Samsung-Logo.png",
+    url: <SiDell size={90} color="#FFF" />,
   },
   {
     id: 8,
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/2560px-Cisco_logo_blue_2016.svg.png",
+    url: <SiLenovo size={90} color="#FFF" />,
   },
   {
     id: 9,
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/LG_logo_%282015%29.svg/2560px-LG_logo_%282015%29.svg.png",
+    url: <SiSamsung size={90} color="#FFF" />,
   },
   {
     id: 10,
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/2048px-Xiaomi_logo_%282021-%29.svg.png",
+    url: <SiEpson size={90} color="#FFF"/>,
+  },
+  {
+    id: 11,
+    url: <SiAsus size={90} color="#FFF" />,
+  },
+  {
+    id: 12,
+    url: <SiPlaystation size={90} color="#FFF"/>,
+  },
+  {
+    id: 13,
+    url: <ImAmazon size={90} color="#FFF" />,
+  },
+  {
+    id: 14,
+    url: <SiAdobecreativecloud size={90} color="#FFF"/>,
+  },
+  {
+    id: 15,
+    url: <SiMailchimp size={90} color="#FFF"/>,
   },
 ];
 
@@ -55,7 +86,7 @@ const Partner = () => {
             const { id, url } = item;
             return (
                 <div className="partner-description" key={id} >
-                  <img src={url} alt="" />
+                  {url}
                 </div>
             )
         })}

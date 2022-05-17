@@ -2,11 +2,12 @@
     max-width: 100vw;
     height: 100vh;
     text-align: center;
+    background-color: var(--clr-primary-2);
 }
 
 .partner h1 {
       margin: 4rem 1rem 1rem 4rem;
-      padding: 1rem;
+      padding: 3rem;
       font-weight: 100;
       font-size: 20pt;
       text-transform: uppercase;
@@ -19,12 +20,12 @@
     align-items: center;
 }
 
-.partner.partner-description {
+.partner-description {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 2rem
+    margin: 2rem;
 }
 
 .partner-description img{

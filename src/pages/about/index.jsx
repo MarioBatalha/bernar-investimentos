@@ -56,7 +56,7 @@ const About = () => {
          images.map(item => {
            return(
              <SwiperSlide key={item.id}>
-               <img src={item.url} alt={item.alternativeText} />
+               <img className="imgSlider" src={item.url} alt={item.alternativeText} />
              </SwiperSlide>
            )
          })
