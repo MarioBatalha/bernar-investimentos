@@ -1,4 +1,5 @@
 import React from "react";
+//import { BsApple } from 'react-icons/bs';
 
 import "./style.scss";
 

@@ -146,7 +146,7 @@ Variables
     width: 100vw;
     background: var(--clr-white);
     box-shadow: var(--light-shadow);
-    z-index: 1;
+    z-index: 999;
   }
   .nav-header {
     display: flex;
