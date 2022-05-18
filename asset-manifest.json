@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MarioBatalha/bernar-investimentos/static/css/main.54abd985.css",
-    "main.js": "/MarioBatalha/bernar-investimentos/static/js/main.f4025dec.js",
-    "static/media/05.png": "/MarioBatalha/bernar-investimentos/static/media/05.099d81efe48f9f9e0bad.png",
-    "static/media/03.png": "/MarioBatalha/bernar-investimentos/static/media/03.059e32eb796068436da5.png",
-    "static/media/04.png": "/MarioBatalha/bernar-investimentos/static/media/04.c4447d11be16e6ea5ebb.png",
-    "static/media/saller.svg": "/MarioBatalha/bernar-investimentos/static/media/saller.2fc0e2921797e9b29f2c82e27d584a43.svg",
-    "static/media/logo.png": "/MarioBatalha/bernar-investimentos/static/media/logo.0b19ed8e03de95e06476.png",
-    "static/media/maintanance.svg": "/MarioBatalha/bernar-investimentos/static/media/maintanance.3b7bea5973fe48958c0ad289b2a9b9c3.svg",
-    "index.html": "/MarioBatalha/bernar-investimentos/index.html",
-    "main.54abd985.css.map": "/MarioBatalha/bernar-investimentos/static/css/main.54abd985.css.map",
-    "main.f4025dec.js.map": "/MarioBatalha/bernar-investimentos/static/js/main.f4025dec.js.map"
+    "main.css": "/static/css/main.54abd985.css",
+    "main.js": "/static/js/main.85400633.js",
+    "static/media/05.png": "/static/media/05.099d81efe48f9f9e0bad.png",
+    "static/media/03.png": "/static/media/03.059e32eb796068436da5.png",
+    "static/media/04.png": "/static/media/04.c4447d11be16e6ea5ebb.png",
+    "static/media/saller.svg": "/static/media/saller.2fc0e2921797e9b29f2c82e27d584a43.svg",
+    "static/media/logo.png": "/static/media/logo.0b19ed8e03de95e06476.png",
+    "static/media/maintanance.svg": "/static/media/maintanance.3b7bea5973fe48958c0ad289b2a9b9c3.svg",
+    "index.html": "/index.html",
+    "main.54abd985.css.map": "/static/css/main.54abd985.css.map",
+    "main.85400633.js.map": "/static/js/main.85400633.js.map"
   },
   "entrypoints": [
     "static/css/main.54abd985.css",
-    "static/js/main.f4025dec.js"
+    "static/js/main.85400633.js"
   ]
 }
