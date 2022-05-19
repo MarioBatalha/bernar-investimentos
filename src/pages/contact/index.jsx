@@ -7,13 +7,13 @@ import "./style.scss";
 const Contact = () => {
   return (
     <section className="contact">
-      <h1> COntactos</h1>
+      <h1> Contactos</h1>
       <div className="contact-description">
         <div className="localization">
           <h3>Localização</h3>
           <p>Luanda, Bairro Rangel</p>
           <p>Rua Arco-íris Zona 15, casa S/N</p>
-          <p>hello@bernarinvestimentos.com</p>
+          <p>suporte@bernar-tech.com</p>
           <GoLocation size={40} color="#23395D"></GoLocation>
         </div>
         <div className="localization">
